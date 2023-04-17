@@ -1,0 +1,66 @@
+.section-title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+/*! catagories start*/
+.categories {
+    margin: 40px 0;
+}
+
+.categories .category-list {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+/*! catagories end*/
+
+/*! products start */
+.products {
+    margin-bottom: 40px;
+}
+
+
+
+/*! products end */
+/*! campaign start  */
+.campaigns .campaigns-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+/*! campaign end  */
+
+/*! blog start  */
+.blogs {
+    margin-bottom: 30px;
+}
+
+.blogs .blog-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+
+/*! blog end  */
+/*?responsive*/
+@media (max-width: 768px) {
+    .blogs .blog-list {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}

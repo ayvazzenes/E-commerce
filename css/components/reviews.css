@@ -1,0 +1,145 @@
+/*! comment item start*/
+.tab-panel-reviews .comment-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.tab-panel-reviews .comment-star {
+    display: flex;
+}
+
+.single-tabs h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.tab-panel-reviews .comment-star li {
+    font-size: 12px;
+    color: gold;
+}
+
+.tab-panel-reviews .comment-avatar img {
+    border-radius: 100%;
+}
+
+.tab-panel-reviews .comment-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tab-panel-reviews .comment-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    font-size: 14px
+}
+
+.tab-panel-reviews .comment-text .comment-meta time {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.tab-panel-reviews .comment-text .comment-description p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+/*! comment item end*/
+
+
+/*! comment form start*/
+.tab-panel-reviews span.required {
+    color: #e51414;
+}
+
+.tab-panel-reviews .review-form-wrapper h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0;
+    border-bottom: 1px solid #dee0ea;
+    padding-bottom: 16px;
+
+}
+
+.tab-panel-reviews .comment-note {
+    font-size: 14px;
+
+
+}
+
+.tab-panel-reviews .comment-form-rating {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.tab-panel-reviews .comment-form-rating .stars {
+    display: flex;
+}
+
+.tab-panel-reviews .comment-form-rating .stars a {
+    display: flex;
+    padding: 4px 10px;
+    border-right: 1px solid #dee0ea;
+    margin-top: 5px;
+
+}
+
+.tab-panel-reviews .comment-form-rating .star.active i {
+    color: gold;
+  }
+.tab-panel-reviews .comment-form-rating .stars a:hover i {
+    color: gold;
+}
+
+
+.tab-panel-reviews .comment-form-rating .stars a:first-child {
+    padding-left: 0;
+
+}
+
+.tab-panel-reviews .comment-form-rating .stars a:last-child {
+    border-right: none;
+
+}
+
+
+
+.tab-panel-reviews .comment-form-rating .stars i {
+
+    font-size: 10px;
+    color: #dee0ea;
+    transition: 0.2s ease color;
+}
+
+.tab-panel-reviews .comment-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+}
+
+.tab-panel-reviews .comment-form-wrapper div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tab-panel-reviews .comment-form-cookies {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.tab-panel-reviews .form-submit input {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/*! comment form end*/
